@@ -1,0 +1,10 @@
+1. Find pair with given sum in an array. Given an unsorted array of integers, find a pair with a given sum in it.
+    input :
+    arr = [8,7,2,5,3,1]
+    sun = 10
+    Output :
+    Pair found = at index (0,2) and (1,4)
+    Find solution with : O(n^2), O(nlog(n)) and O(n)
+    Source : https://www.techiedelight.com/find-pair-with-given-sum-array/
+
+2.
