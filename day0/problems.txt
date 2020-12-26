@@ -7,4 +7,93 @@
     Find solution with : O(n^2), O(nlog(n)) and O(n)
     Source : https://www.techiedelight.com/find-pair-with-given-sum-array/
 
-2.
+2. Given an array (or string), the task is to reverse the array/string.
+   Examples :
+   Input  : arr[] = {1, 2, 3}
+   Output : arr[] = {3, 2, 1}
+
+   Input :  arr[] = {4, 5, 1, 2}
+   Output : arr[] = {2, 1, 5, 4}
+
+3. Write a function to return minimum and maximum in an array. Your program should make the minimum number of comparisons.
+   Time Complexity : O(n)
+
+4. Given an array arr[] and a number K where K is smaller than size of array, the task is to find the Kth smallest element in the given array. It is given that all array elements are distinct.
+   Expected Time Complexity: O(n)
+
+   Input:
+   The first line of input contains an integer T, denoting the number of testcases. Then T test cases follow. Each test case consists of three lines. First line of each testcase contains an integer N denoting size of the array. Second line contains N space separated integer denoting elements of the array. Third line of the test case contains an integer K.
+
+   Output:
+   For each testcase, in a newline, print the kth smallest element.
+
+   Yout Task:
+   Complete kthSmallest and return the kth smallest element.
+
+   Constraints:
+   1 <= T <= 100
+   1 <= N <= 105
+   1 <= arr[i] <= 105
+   1 <= K <= N
+
+   Example:
+   Input:
+   2
+   6
+   7 10 4 3 20 15
+   3
+   5
+   7 10 4 20 15
+   4
+
+   Output:
+   7
+   15
+
+5. Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
+
+
+   Example 1:
+
+   Input:
+   N = 5
+   arr[]= {0 2 1 2 0}
+   Output: 0 0 1 2 2
+   Explanation: 0s 1s and 2s are segregated
+   into ascending order.
+
+
+
+   Example 2:
+
+   Input:
+   N = 3
+   arr[] = {0 1 0}
+   Output: 0 0 1
+   Explanation: 0s 1s and 2s are segregated
+   into ascending order.
+
+
+   Your Task:
+   You don't need to read input or print anything. Your task is to complete the function sort012() that takes array and n as input parameters and sorts the array in-place.
+
+
+   Expected Time Complexity: O(n)
+   Expected Auxiliary Space: O(1)
+
+
+
+   Constraints:
+   1 <= N <= 10^5
+   0 <= A[i] <= 2
+
+6. Move all negative numbers to beginning and positive to end with constant extra space
+   An array contains both positive and negative numbers in random order. Rearrange the array elements so that all negative numbers appear before all positive numbers.
+    Examples :
+
+    Input: -12, 11, -13, -5, 6, -7, 5, -3, -6
+    Output: -12 -13 -5 -7 -3 -6 11 6 5
+
+    Note: Order of elements is not important here.
+    Time Complexity: O(N)
+    Auxiliary Space: O(1)
